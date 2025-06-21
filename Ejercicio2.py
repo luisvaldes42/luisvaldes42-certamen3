@@ -6,7 +6,7 @@ for i in range(3):
         fila.append(nota)
     notas.append(fila)
 
-print("\nPromedio por estudiante:")
+print("\nPromedio por estudiannte:")
 for i, fila in enumerate(notas):
     promedio = sum(fila) / len(fila)
     print(f"Estudiante {i+1}: {promedio:.2f}")
@@ -21,6 +21,6 @@ for j in range(3):
 
 todos_aprobaron = all(all(nota >= 4.0 for nota in fila) for fila in notas)
 if todos_aprobaron:
-    print("\nTodos los estudiantes aprobaron.")
+    print("\nTodos los estudinates aprobaron.")
 else:
     print("\nNo todos los estudiantes aprobaron.")
