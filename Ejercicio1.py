@@ -1,4 +1,4 @@
-temperaturas = input("Ingresa aquí 5 grados de temperatura distintos, separados por comas: ")
+temperaturas = input("Ingresa aqui 5 grados de temperatura distntos, separado por comas: ")
 numeros = [float(n.strip()) for n in temperaturas.split(",")]
 
 if all(15 <= n <= 30 for n in numeros):
